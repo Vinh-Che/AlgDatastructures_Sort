@@ -1,3 +1,5 @@
+// Klassen er fra: https://www.geeksforgeeks.org/quick-sort/
+
 public class QuickSort {
 
     /* This function takes last element as pivot,
@@ -60,6 +62,6 @@ public class QuickSort {
         for (int i=0; i<n; ++i)
             System.out.print(arr[i]+" ");
 
-        System.out.println();
+        System.out.println("\n");
     }
 }

@@ -1,3 +1,5 @@
+// Klassen er fra: http://www.it.hiof.no/algdat/kode/sequentialSorting.java og https://www.geeksforgeeks.org/insertion-sort/
+
 public class InsertionSort {
 
     public static void insertionSort(int A[])
@@ -29,6 +31,7 @@ public class InsertionSort {
         int n = arr.length;
         for (int i = 0; i < n; ++i)
             System.out.print(arr[i] + " ");
+        System.out.println("\n");
 
     }
 }

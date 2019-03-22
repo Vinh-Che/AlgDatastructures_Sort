@@ -1,3 +1,5 @@
+// Klassen er fra: https://www.geeksforgeeks.org/merge-sort/
+
 public class MergeSort {
 
     // Merges two subarrays of arr[].
@@ -83,7 +85,7 @@ public class MergeSort {
         int n = arr.length;
         for (int i=0; i<n; ++i)
             System.out.print(arr[i] + " ");
-        System.out.println();
+        System.out.println("\n");
     }
 
 }
